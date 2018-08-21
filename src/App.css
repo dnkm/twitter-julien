@@ -1,0 +1,17 @@
+.App {
+  text-align: center;
+}
+
+.movie {
+  background: silver;
+  margin: 1px;
+}
+
+.movie h3 {
+  font-size: 20px;
+}
+
+.movie button {
+  background: dodgerblue;
+  color: white;
+}
