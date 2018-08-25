@@ -1,17 +1,27 @@
 .App {
-  text-align: center;
+  
 }
 
-.movie {
-  background: silver;
-  margin: 1px;
+.App h1 {
+  display: flex;
+  justify-content: space-around;
 }
 
-.movie h3 {
-  font-size: 20px;
+.Calendar {
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.movie button {
-  background: dodgerblue;
+.Calendar > div {
+  width: calc(100% / 7);
+  height: 50px;
+  border: 1px solid gray;
+  box-sizing: border-box;
+  margin: -1px -1px 0 0;
+  flex-grow: 1;
+}
+
+.Calendar .today {
+  background: tomato;
   color: white;
 }
