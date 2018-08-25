@@ -25,3 +25,8 @@
   background: tomato;
   color: white;
 }
+
+.Calendar .event-text {
+  font-size: 10px;
+  color: dodgerblue;
+}
